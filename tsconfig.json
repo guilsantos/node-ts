@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+        "types": [
+            "node",
+            "express",
+            "http-status",
+            "body-parser",
+            "mongoose"
+        ]
+    },
+    "include": [
+        "**/*.ts",
+        "*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
